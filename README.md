@@ -237,14 +237,19 @@ pm.environment.set("update_additionalNeeds",update_additionalneeds);
 ```console 
 newman run API_Project_1st.postman_collection.json -e API_Project_1st_Env.postman_environment.json 
 ```
-![console-result](https://github.com/user-attachments/assets/2f41c211-be82-4ce6-9e84-889a9949c8a7) | ![image](https://github.com/user-attachments/assets/21d00ae1-1b55-402e-b2c7-6ed544f69b04)
+![console-result](https://github.com/user-attachments/assets/2f41c211-be82-4ce6-9e84-889a9949c8a7)
+ | 
+![image](https://github.com/user-attachments/assets/21d00ae1-1b55-402e-b2c7-6ed544f69b04)
 
 - Run Command for Report html:
 ```console 
 newman run API_Project_1st.postman_collection.json -e API_Project_1st_Env.postman_environment.json -r html
 ```
+### Newman HTML Report
 
-- Run Command for Report html:
+![newman-html-report](https://github.com/user-attachments/assets/d8bc8e0d-0420-4b4a-9892-b74c5d4c943c)
+
+- Run Command for Report htmlextra
 ```console 
 newman run API_Project_1st.postman_collection.json -e API_Project_1st_Env.postman_environment.json -r htmlextra
 ```

@@ -257,13 +257,24 @@ newman run API_Project_1st.postman_collection.json -e API_Project_1st_Env.postma
 ### Newman Htmlextra-report(Summary)
 
 ![Htmlextra-report](https://github.com/user-attachments/assets/b81e68c0-d44d-4950-bdef-c7c5f5fcca02)
-![Htmlextra-report](https://github.com/user-attachments/assets/b81e68c0-d44d-4950-bdef-c7c5f5fcca02)
 ![total-request](https://github.com/user-attachments/assets/6c6c7217-ece5-4d9e-baba-8c78841cf784)
 ![image](https://github.com/user-attachments/assets/c3a723e7-4d88-4c91-ba9e-08f9b3849c16)
 ![image](https://github.com/user-attachments/assets/2a3040a2-024b-4c3a-a5fd-e96ae06baa8b)
 
- Summary  Report           |  Aggregate  Report
-    :-------------------------:|:-------------------------:
-    ![BookingApp_t1_summary](https://github.com/Mahmuduls1995/Performance-Testing-With-JMeter-BookingApp/blob/main/Project%20Screenshot/t1-Summary%20report.png)  |  ![BookingApp_t1_agg](https://github.com/Mahmuduls1995/Performance-Testing-With-JMeter-BookingApp/blob/main/Project%20Screenshot/t1-Aggregate-report.png)
+### API_Testing_Monitor
 
+![image](https://github.com/user-attachments/assets/eea62a08-6009-48a9-a2f2-84b74f330bdc)
 
+## Read Data From CSV File
+
+### Create first CSV File from Excel and Save on folder and Import in Postman
+
+![image](https://github.com/user-attachments/assets/70fd9ab1-b711-459d-947d-c7fa06d499ba)
+
+### If want to get Data	from CSV File you must set iterationData instead of environment...
+
+![image](https://github.com/user-attachments/assets/1c212293-6e49-438b-a3fa-11b65d42191f)
+
+### Passed All Data For CSV Data Import
+
+![image](https://github.com/user-attachments/assets/1ac61ca2-9296-4014-9f75-11896ea96291)

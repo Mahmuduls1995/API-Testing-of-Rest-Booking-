@@ -101,3 +101,35 @@ pm.environment.set('checkout',checkOut)
 var additionalNeeds = pm.variables.replaceIn("{{$randomNoun}}")
 pm.environment.set("additionalNeeds", additionalNeeds)
 ```
+  **Request Body:** 
+ ```console 
+{
+    "firstname": "{{firstname}}",
+    "lastname": "{{lastname}}",
+    "totalprice": {{totalprice}},
+    "depositpaid": {{depositpaid}},
+    "bookingdates": {
+               "checkin": "{{checkin}}",
+                "checkout": "{{checkout}}"
+    },
+     "additionalneeds" : "{{additionalNeeds}}"
+}
+```
+  **Response Body:**
+ ```console 
+{
+    "bookingid": 954,
+    "booking": {
+        "firstname": "Murray",
+        "lastname": "Goodwin",
+        "totalprice": 685,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2025-01-12",
+            "checkout": "2024-11-07"
+        },
+        "additionalneeds": "bus"
+    }
+}
+```
+

@@ -132,4 +132,39 @@ pm.environment.set("additionalNeeds", additionalNeeds)
     }
 }
 ```
+## _**2. Get Booking Details By ID**_
+### Request URL: https://restful-booker.herokuapp.com/booking/bookingid
+### Request Method: GET
+### Response Body:
+ ```console 
+{
+    "firstname": "Murray",
+    "lastname": "Goodwin",
+    "totalprice": 685,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2025-01-12",
+        "checkout": "2024-11-07"
+    },
+    "additionalneeds": "bus"
+}
+```
+## _**3. Create A Token For Authentication.**_
+### Request URL: https://restful-booker.herokuapp.com/auth
+### Request Method: POST
+### Pre-request Script: None
+### Request Body:
+ ```console 
+{
+	"username": "admin",
+	"password": "password123"
+}
+```
+  **Response Body:**
+ ```console 
+{
+    "token": "06eb798bf6f2caa"
+}
+```
+
 

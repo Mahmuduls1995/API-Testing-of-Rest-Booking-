@@ -252,6 +252,7 @@ newman run API_Project_1st.postman_collection.json -e API_Project_1st_Env.postma
 - Run Command for Report htmlextra
 ```console 
 newman run API_Project_1st.postman_collection.json -e API_Project_1st_Env.postman_environment.json -r htmlextra
+```
 
 ### Newman Htmlextra-report(Summary)
 

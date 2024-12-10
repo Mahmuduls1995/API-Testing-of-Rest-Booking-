@@ -63,3 +63,41 @@ This project demonstrates API testing using Postman, providing a collection of t
     -   Once the tests are complete, view the results in the Runner tab.
     -   Detailed test results can be viewed for each request.
 
+## **Testing Process**
+
+## Test Case Scenarios:
+
+## _**1. Create New Booking**_
+
+### Request URL: https://restful-booker.herokuapp.com/booking/
+### Request Method: POST
+### Pre-request Script:
+```console 
+var firstName = pm.variables.replaceIn("{{$randomFirstName}}");
+console.log(firstName);
+pm.environment.set("firstname", firstName);
+
+var lastName=pm.variables.replaceIn("{{$randomLastName}}");
+console.log(lastName);
+pm.environment.set("lastname",lastName);
+
+
+var totalPrice=pm.variables.replaceIn("{{$randomInt}}")
+console.log(totalPrice)
+pm.environment.set("totalprice",totalPrice);
+
+var depositPaid=pm.variables.replaceIn("{{$randomBoolean}}");
+console.log(depositPaid)
+pm.environment.set("depositpaid",depositPaid);
+
+const moment = require('moment')
+const today = moment();
+var checkin=today.add(2,'d').add(1,'M').format("YYYY-MM-DD")
+pm.environment.set('checkin',checkin)
+
+var checkOut=today.subtract(2, 'months').subtract(5, 'd').format("yyyy-MM-DD")
+pm.environment.set('checkout',checkOut)
+
+var additionalNeeds = pm.variables.replaceIn("{{$randomNoun}}")
+pm.environment.set("additionalNeeds", additionalNeeds)
+```

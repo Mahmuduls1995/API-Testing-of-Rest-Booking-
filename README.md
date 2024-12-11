@@ -15,8 +15,8 @@ This project demonstrates API testing using Postman, providing a collection of t
 - Pre-request scripts for data setup
 - Test scripts for assertions and validations
 
-## API Documentation:
-- https://github.com(Wait)
+## API Documentation For Project:
+- https://documenter.getpostman.com/view/21324990/2sAYHwJ4RG
   
 ### **Technology used:**
 - Postman
@@ -275,6 +275,6 @@ newman run API_Project_1st.postman_collection.json -e API_Project_1st_Env.postma
 
 ![image](https://github.com/user-attachments/assets/1c212293-6e49-438b-a3fa-11b65d42191f)
 
-### Passed All Data For CSV Data Import
+### Passed All Test For CSV Data Import
 
 ![image](https://github.com/user-attachments/assets/1ac61ca2-9296-4014-9f75-11896ea96291)
